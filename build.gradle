@@ -1,3 +1,8 @@
-plugins {
-    id 'com.android.application' version '8.1.4' apply false
-}
+# Wajib agar library AndroidX dapat terbaca dan build tidak gagal
+android.useAndroidX=true
+android.enableJetifier=true
+
+# Konfigurasi performa Gradle
+org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+org.gradle.parallel=true
+org.gradle.caching=true
