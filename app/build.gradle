@@ -3,15 +3,16 @@ plugins {
 }
 
 android {
-    namespace 'com.cbtselo2.app'
+    namespace 'id.my.eouxt.cbtselo2'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.cbtselo2.app"
+        applicationId "id.my.eouxt.cbtselo2"
         minSdk 24
         targetSdk 34
         versionCode 1
         versionName "1.0"
+
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
